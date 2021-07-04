@@ -16,7 +16,7 @@
 
 <slot />
 
-<footer class="footer">footer</footer>
+<footer class="footer">I am a footer.</footer>
 
 <style global lang="scss">
 	@import '../main.scss';
