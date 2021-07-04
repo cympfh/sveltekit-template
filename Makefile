@@ -5,8 +5,9 @@ build:
 	npm run build
 
 test:
-	npm run check
-	npm run lint
+	npx svelte-check --tsconfig ./tsconfig.json
+	npx prettier --check --plugin-search-dir=. src/
+	npx eslint --ignore-path .gitignore .
 
 init:
 	npm install

@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+	<title>SvelteKit App</title>
+</svelte:head>
+
+<div class="section">
+	<div class="container">
+		<h1 class="title">Hello World!</h1>
+	</div>
+</div>
